@@ -1,0 +1,6 @@
+-- Crear usuario
+ALTER SESSION SET "_ORACLE_SCRIPT"=true;
+
+CREATE USER cursoplsql IDENTIFIED BY 123456;
+
+GRANT ALL PRIVILEGES TO cursoplsql;
